@@ -1,11 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/coffee-aesthetic-book-desktop-tvxn424bb1zw2p40.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .login{
     width: 100%;
-    min-height: 450px;
-    background: rgba(99,146,176, 0.37);
+    min-height: 650px;
+    background: rgba(248, 248, 248, 0.616);
     float: left;
     padding: 15px;
     padding-top: 100px;
     margin-top: 100px;
-    /* box-shadow: 0px 0px 40px 14px lightblue; */
+    box-shadow: 6px 10px 40px 3px  rgb(8, 4, 0);
     
 }
+
+.log{
+    /* color: aliceblue; */
+    font-weight: 800;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgb(172, 110, 74);
+}
+
+
+.Register{
+    width: 100%;
+    min-height: 850px;
+    background: rgba(248, 248, 248, 0.836);
+    float: left;
+    padding: 15px;
+    padding-top: 100px;
+    margin-top: 50px;
+    box-shadow: 6px 10px 40px 3px  rgb(8, 4, 0);
+    
+}
+
+.pic{
+    width: 100%;
+    min-height: 850px;
+    background: rgba(248, 248, 248, 0.836);
+    float: left;
+    padding: 15px;
+    padding-top: 100px;
+    margin-top: 50px;
+    box-shadow: 6px 10px 40px 3px  rgb(8, 4, 0);
+    transition: transform .2s;
+
+}
+
+.ima{
+    padding: 15px;
+    box-shadow: 1px 1px 40px 3px black;
+}
+
+.pic :hover{
+transform: scale(1.1);
+
+}
+
+@media only screen and (max-width: 768px) {
+    div.spic {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    div.pic {
+      width: 300px;
+    }
+  }
+
+  .tex{
+    font-size: 15px;
+    font-weight: 800;
+  }
