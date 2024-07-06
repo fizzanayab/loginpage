@@ -6,7 +6,7 @@
 body{
     background-image: url(https://wallpapers.com/images/hd/coffee-aesthetic-book-desktop-tvxn424bb1zw2p40.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .login{
